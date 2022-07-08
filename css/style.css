@@ -60,14 +60,14 @@
 
 }
 
-.apresetacao h1 {
+.apresetacao__titulo {
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 2.6rem;
     margin-top: 1.6rem;
 }
 
-.apresentacao p {
+.apresentacao__paragrafo {
     margin-block: 1.6rem;
     font-weight: 400;
     font-size: 14px;
@@ -77,10 +77,13 @@
 .apresentacao_links {
     display: flex;
     flex-wrap: wrap;
+    gap: .23rem;
+
 }
 
 .apresentacao__link {
     display: flex;
+
 
 
 }
@@ -113,4 +116,144 @@
     font-size: 1.4rem;
     line-height: 1.6rem;
     margin-bottom: 1.6rem;
+}
+
+.skills {
+    padding: 1.6rem;
+    background-color: var(--cor-background);
+
+
+}
+
+.skills__titulo {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    color: var(--cor-fonte);
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.skills__item {
+    width: 15.6rem;
+    height: 11.8rem;
+    padding-top: 3.8rem;
+    padding-left: 1.6rem;
+    background-color: var(--branco);
+}
+
+.skills__item__logo {
+    margin-bottom: .8rem;
+}
+
+.skills__item__titulo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--cor-fonte);
+}
+
+.hobbies {
+    padding: 1.6rem;
+    background-color: var(--cor-background);
+}
+
+.hobbies__titulo {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    color: var(--cor-fonte);
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.hobbies__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.hobbies__item {
+    width: 15.6rem;
+    height: 11.8rem;
+    padding-top: 3.8rem;
+    padding-left: 1.6rem;
+    background-color: var(--branco);
+}
+
+.hobbies__item__logo {
+    margin-bottom: .8rem;
+}
+
+.hobbies__item__titulo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--cor-fonte);
+}
+
+.cursos {
+    background-color: var(--cor-section);
+    padding: 3.2rem;
+    color: var(--cor-fonte);
+   
+  
+}
+
+.cursos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.curso__front {
+    margin-bottom: 1.6rem;
+}
+
+.cursos__titulo {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+
+}
+
+.curso__front__logo-alura {
+    width: 29.6rem;
+    height: 11.8rem;
+    background-image: url(../img/alura_logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.curso__front__logo-devclub{
+  display: flex;
+  margin: auto;
+   
+}
+
+.curso__front__titulo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin: .8rem 0;
+    text-align: center;
+}
+
+.curso__front__descricao {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: center;
+
 }
