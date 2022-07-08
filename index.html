@@ -9,40 +9,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-   
+
     <title>Porfólio</title>
 </head>
 
 <body>
-    <header>
-        <div class="header_logo">
-            <img src="img/auto_awesome_black_24dp 1 (1).png" alt="">
-            <span>Rodrigo Soares</span>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+
+            <span class="cabecalho__nome"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 9L20.25 6.25L23 5L20.25 3.75L19 1L17.75 3.75L15 5L17.75 6.25L19 9Z" fill="#464646" />
+                    <path d="M19 15L17.75 17.75L15 19L17.75 20.25L19 23L20.25 20.25L23 19L20.25 17.75L19 15Z"
+                        fill="#464646" />
+                    <path
+                        d="M11.5 9.5L9 4L6.5 9.5L1 12L6.5 14.5L9 20L11.5 14.5L17 12L11.5 9.5ZM9.99 12.99L9 15.17L8.01 12.99L5.83 12L8.01 11.01L9 8.83L9.99 11.01L12.17 12L9.99 12.99Z"
+                        fill="#464646" />
+                </svg>
+                Rodrigo Soares</span>
         </div>
 
-        <ul>
-            <li><a href="#sobre_mim">Sobre mim</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#projetos">Projetos</a></li>
+
+
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#sobre_mim">Sobre mim</a></li>
+            <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+            <li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+            <li class="menu__item"><a class="menu__link" href="#formacao">Formação</a></li>
+            <li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
 
         </ul>
-        <a href="#contato" class="header_contato">Contato</a>
-        
+
+        <a class="menu__contato" href="#contato">contato</a>
+
+
+
     </header>
 
 
 
 
-    <article>
-        <div class="apresentacao">
+    <section class="apresentacao">
 
-            <h1>Olá, meu nome é Rodrigo Soares e construo páginas web.</h1>
-            <p>Atualmente estou participando do projeto Oracle ONE na Alura.</p>
+        <div class="apresentacao__imagem"></div>
 
-            <div class="links_contato">
 
+
+        <h1>Olá, meu nome é Rodrigo Soares e construo páginas web.</h1>
+        <p>Atualmente estou participando do projeto Oracle ONE na Alura.</p>
+
+
+        <div class="apresentacao_links">
+
+
+            <div class="apresentacao__link">
                 <a href="https://github.com/rodrigoeduss" target="_blank">Github
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -51,24 +71,10 @@
                     </svg>
 
                 </a>
-                <a href="https://www.linkedin.com/in/rodrigoeduss/" target="_blank">Linkedin
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z"
-                            fill="#464646" />
-                    </svg>
+            </div>
 
-                </a>
-                <a href="https://www.instagram.com/rodrigoeduss/" target="_blank">Instagram
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z"
-                            fill="#464646" />
-                    </svg>
-
-                </a>
-             
-                <a href="./pdf/Portfolio.pdf" download>Currículo
+            <div class="apresentacao__link">
+                <a class="apresentacao__link" href="https://www.linkedin.com/in/rodrigoeduss/" target="_blank">Linkedin
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z"
@@ -77,20 +83,43 @@
 
                 </a>
             </div>
+
+            <div class="apresentacao__link">
+                <a class="apresentacao__link" href="https://www.instagram.com/rodrigoeduss/" target="_blank">Instagram
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z"
+                            fill="#464646" />
+                    </svg>
+
+                </a>
+            </div>
+
+            <div class="apresentacao__link">
+                <a class="apresentacao__link" href="./pdf/Portfolio.pdf" download>Currículo
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z"
+                            fill="#464646" />
+                    </svg>
+
+                </a>
+
+            </div>
+       
         </div>
 
+    </section>
 
-        <div class="hero-image">
-            <img src="img/perfil.png" alt="">
-        </div>
 
-    </article>
 
-    <section class="sobre_mim" id="sobre_mim">
-        <div class="container_sobre_mim">
-            <h2>Sobre mim</h2>
-            <div class="sobre_mim_paragraph">
-                <p>"Aos 45 do segundo tempo!!!" <br>
+   
+
+    <section class="sobre_mim">
+       
+            <h2 class="sobre_mim__title">Sobre mim</h2>
+           
+                <p class="sobre_mim__paragrafo">"Aos 45 do segundo tempo!!!" <br>
                     Essa expressão futebolística nunca fez tanto sentido para mim, quanto agora.
                     Já fiz de um tudo ao longo dos meus 45 anos. Já fui: faxineiro, repositor, manobrista, locutor,
                     caixa, operador de jogos, gerente de bingo, pesquisador, líder de equipe, recepcionista de hotel,
@@ -99,17 +128,18 @@
                     guarda-sol na praia.. Ufa!!! Às vezes, ou, quase sempre, conciliando duas ou mais atividades para
                     render um extra $$ no final do mês.</p>
 
-                <p>Mas, agora, mesmo aos 45 do segundo tempo descobri a programação, e estou amando a experiência de
+                <p class="sobre_mim__paragrafo">Mas, agora, mesmo aos 45 do segundo tempo descobri a programação, e estou amando a experiência de
                     provar, apenas para mim mesmo, que ainda posso aprender algo novo. Tavez nesse momento a maturidade
                     seja a minha maior aliada, pois não há melhor escola de soft skills do que a vida. Fico feliz com
                     cada
                     pequeno progresso, porque também aprendi que curtir a viagem é tão importante quanto chegar ao
                     destino. Seja aos 44, 45, 60 ou 80!!!</p>
-            </div>
-            <img src="./img/assinatura.svg" alt="">
-        </div>
+           
+            <img class="sobre_mim__assinatura" src="./img/assinatura.svg" alt="">
+       
     </section>
 
+     <!--
     <section class="skills" id="skills">
 
         <h2>Skills</h2>
@@ -350,7 +380,9 @@
         <p>2022</p>
     </footer>
 
-<script src="js/script.js"></script>
+    -->
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
