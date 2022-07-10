@@ -16,244 +16,384 @@
 
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1.6rem;
-    color: var(--cor-fonte);
-}
 
-.cabecalho__nome {
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-}
-
-
-.menu {
-    display: none;
-}
-
-.menu__contato {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    color: inherit;
-}
-
-.apresentacao {
-    padding: 1.6rem;
-    color: var(--cor-fonte);
-}
-
-.apresentacao__imagem {
-    width: 9.8rem;
-    height: 9.8rem;
-    background-image: url(../img/perfil.png);
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 1.6rem;
-
-}
-
-.apresetacao__titulo {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    margin-top: 1.6rem;
-}
-
-.apresentacao__paragrafo {
-    margin-block: 1.6rem;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.apresentacao_links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .23rem;
-
-}
-
-.apresentacao__link {
-    display: flex;
+@media screen and (min-width: 0) {
 
 
 
-}
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 1.6rem;
+        color: var(--cor-fonte);
 
-.apresentacao__link a {
-    display: flex;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--cor-fonte);
-    align-items: center;
-}
+    }
 
-.sobre_mim {
-    padding: 1.6rem;
-    background: var(--cor-section);
-    color: var(--cor-fonte);
-}
-
-.sobre_mim__title {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    margin-bottom: 1.6rem;
-}
-
-.sobre_mim__paragrafo {
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    margin-bottom: 1.6rem;
-}
-
-.skills {
-    padding: 1.6rem;
-    background-color: var(--cor-background);
+    .cabecalho__nome {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
 
 
-}
+    .menu {
+        display: none;
+    }
 
-.skills__titulo {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    color: var(--cor-fonte);
-    text-align: center;
-    margin-bottom: 3.2rem;
-}
+    .menu__contato {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        color: inherit;
+    }
 
-.skills__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.6rem;
-    justify-content: center;
-}
+    .apresentacao {
+        padding: 1.6rem;
+        color: var(--cor-fonte);
+    }
 
-.skills__item {
-    width: 15.6rem;
-    height: 11.8rem;
-    padding-top: 3.8rem;
-    padding-left: 1.6rem;
-    background-color: var(--branco);
-}
+    .apresentacao__imagem {
+        width: 9.8rem;
+        height: 9.8rem;
+        background-image: url(../img/perfil.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 1.6rem;
 
-.skills__item__logo {
-    margin-bottom: .8rem;
-}
+    }
 
-.skills__item__titulo {
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    color: var(--cor-fonte);
-}
+    .apresetacao__titulo {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        margin-top: 1.6rem;
+    }
 
-.hobbies {
-    padding: 1.6rem;
-    background-color: var(--cor-background);
-}
+    .apresentacao__paragrafo {
+        margin-block: 1.6rem;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
 
-.hobbies__titulo {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    color: var(--cor-fonte);
-    text-align: center;
-    margin-bottom: 3.2rem;
-}
+    .apresentacao_links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .23rem;
 
-.hobbies__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.6rem;
-    justify-content: center;
-}
+    }
 
-.hobbies__item {
-    width: 15.6rem;
-    height: 11.8rem;
-    padding-top: 3.8rem;
-    padding-left: 1.6rem;
-    background-color: var(--branco);
-}
-
-.hobbies__item__logo {
-    margin-bottom: .8rem;
-}
-
-.hobbies__item__titulo {
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    color: var(--cor-fonte);
-}
-
-.cursos {
-    background-color: var(--cor-section);
-    padding: 3.2rem;
-    color: var(--cor-fonte);
-   
-  
-}
-
-.cursos__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .apresentacao__link {
+        display: flex;
 
 
-.curso__front {
-    margin-bottom: 1.6rem;
-}
 
-.cursos__titulo {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    text-align: center;
-    margin-bottom: 3.2rem;
+    }
 
-}
+    .apresentacao__link a {
+        display: flex;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--cor-fonte);
+        align-items: center;
+    }
 
-.curso__front__logo-alura {
-    width: 29.6rem;
-    height: 11.8rem;
-    background-image: url(../img/alura_logo.png);
-    background-position: center;
-    background-size: cover;
-}
+    .sobre_mim {
+        padding: 1.6rem;
+        background: var(--cor-section);
+        color: var(--cor-fonte);
+    }
 
-.curso__front__logo-devclub{
-  display: flex;
-  margin: auto;
-   
-}
+    .sobre_mim__title {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        margin-bottom: 1.6rem;
+    }
 
-.curso__front__titulo {
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    margin: .8rem 0;
-    text-align: center;
-}
+    .sobre_mim__paragrafo {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-bottom: 1.6rem;
+    }
 
-.curso__front__descricao {
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    text-align: center;
+    .skills {
+        padding: 1.6rem;
+        background-color: var(--cor-background);
+
+
+    }
+
+    .skills__titulo {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        color: var(--cor-fonte);
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .skills__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6rem;
+        justify-content: center;
+    }
+
+    .skills__item {
+        width: 15.6rem;
+        height: 11.8rem;
+        padding-top: 3.8rem;
+        padding-left: 1.6rem;
+        background-color: var(--branco);
+    }
+
+    .skills__item__logo {
+        margin-bottom: .8rem;
+    }
+
+    .skills__item__titulo {
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: var(--cor-fonte);
+    }
+
+    .hobbies {
+        padding: 1.6rem;
+        background-color: var(--cor-background);
+    }
+
+    .hobbies__titulo {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        color: var(--cor-fonte);
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .hobbies__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6rem;
+        justify-content: center;
+    }
+
+    .hobbies__item {
+        width: 15.6rem;
+        height: 11.8rem;
+        padding-top: 3.8rem;
+        padding-left: 1.6rem;
+        background-color: var(--branco);
+    }
+
+    .hobbies__item__logo {
+        margin-bottom: .8rem;
+    }
+
+    .hobbies__item__titulo {
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: var(--cor-fonte);
+    }
+
+    .cursos {
+        background-color: var(--cor-section);
+        padding: 3.2rem;
+        color: var(--cor-fonte);
+
+
+    }
+
+    .cursos__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .curso__front {
+        margin-bottom: 3.2rem;
+    }
+
+    .cursos__titulo {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        text-align: center;
+        margin-bottom: 3.2rem;
+
+    }
+
+    .curso__front__logo-alura {
+        width: 29.6rem;
+        height: 11.8rem;
+        background-image: url(../img/alura_logo.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .curso__front__logo-devclub {
+        display: flex;
+        margin: auto;
+
+    }
+
+    .curso__front__titulo {
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        margin: .8rem 0;
+        text-align: center;
+    }
+
+    .curso__front__descricao {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        text-align: center;
+
+    }
+
+    .experiencia {
+        padding: 3.2rem;
+
+    }
+
+    .experiencia__titulo {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        color: var(--cor-fonte);
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    .experiencia__imagem {
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+
+    .experiencia__imagem__titulo {
+        color: var(--cor-fonte);
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .experiencia__imagem__paragrafo {
+        color: var(--cor-fonte);
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-top: .8rem;
+        margin-bottom: 2rem;
+    }
+
+    .experiencia__link__repositorio {
+        border: 1px solid var(--azul);
+        color: var(--azul);
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-bottom: 2rem;
+        padding: 1.2rem 1.6rem;
+        text-decoration: none;
+
+
+    }
+
+    .experiencia__link__demo {
+        background: var(--azul);
+        border: none;
+        color: var(--branco);
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-left: 3.2rem;
+        padding: 1.2rem 1.6rem;
+        text-decoration: none;
+    }
+
+    .contato {
+        padding: 3.2rem;
+        background-color: var(--cor-section);
+    }
+
+    .contato__titulo {
+        color: var(--cor-fonte);
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        margin-bottom: .8rem;
+    }
+
+    .contato__paragrafo {
+        color: var(--cor-fonte);
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        margin-bottom: 3.2rem;
+
+    }
+
+    .contato__input {
+        color: var(--cor-fonte);
+        border: none;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 3.2rem;
+        outline: none;
+        padding: 2.8rem 0 .8rem 1.2rem;
+        width: 100%;
+
+    }
+
+    .contato__mensagem {
+        color: var(--cor-fonte);
+        border: none;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 3.2rem;
+        outline: none;
+        padding: .8rem 0 0 1.2rem;
+        width: 100%;
+    }
+
+    .contato__botao {
+        background: var(--azul);
+        border: none;
+        color: var(--branco);
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        padding: 1.2rem 1.6rem;
+        text-decoration: none;
+    }
+
+    .footer {
+        padding: 3.2rem 0;
+    }
+
+    .footer__paragrafo {
+        color: var(--cor-fonte);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        text-align: center;
+    }
 
 }
