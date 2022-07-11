@@ -27,6 +27,7 @@
         align-items: center;
         padding: 2rem 1.6rem;
         color: var(--cor-fonte);
+        background-color: var(--cor-background);
 
     }
 
@@ -34,19 +35,19 @@
         display: flex;
         align-items: center;
         font-weight: 700;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 1.9rem;
     }
 
 
-    .menu {
+    .cabecalho__menu {
         display: none;
     }
 
-    .menu__contato {
+    .cabecalho__menu__contato {
         text-decoration: none;
         font-weight: 400;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.6rem;
         color: inherit;
     }
@@ -54,6 +55,7 @@
     .apresentacao {
         padding: 1.6rem;
         color: var(--cor-fonte);
+        background-color: var(--cor-background);
     }
 
     .apresentacao__imagem {
@@ -66,7 +68,7 @@
 
     }
 
-    .apresetacao__titulo {
+    .apresentacao__titulo {
         font-weight: 700;
         font-size: 2.2rem;
         line-height: 2.6rem;
@@ -110,7 +112,7 @@
         color: var(--cor-fonte);
     }
 
-    .sobre_mim__title {
+    .sobre_mim__titulo {
         font-weight: 700;
         font-size: 2.2rem;
         line-height: 2.6rem;
@@ -266,6 +268,7 @@
 
     .experiencia {
         padding: 3.2rem;
+        background-color: var(--cor-background);
 
     }
 
@@ -395,5 +398,202 @@
         line-height: 1.9rem;
         text-align: center;
     }
+
+}
+
+/* RESPONSIVIDADE TABLET */
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding-inline: 3.2rem;
+    }
+
+    .cabecalho__nome {
+        font-size: 1.6rem;
+    }
+
+    .cabecalho__menu__contato {
+        font-weight: 700;
+    }
+
+    .apresentacao {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-inline: 3.2rem;
+    }
+
+    .apresentacao__texto {
+        width: 70%;
+    }
+
+    .apresentacao__imagem {
+        width: 14.6rem;
+        height: 14.6rem;
+    }
+
+    .sobre_mim,
+    .skills,
+    .hobbies {
+        padding: 3.2rem;
+    }
+
+    .cursos__container {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+}
+
+/* RESPONSIVIDAE DESK */
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        max-width: 1136px;
+        margin: auto;
+    }
+
+
+    .cabecalho__menu {
+        display: flex;
+        list-style: none;
+        gap: 3.2rem;
+    }
+
+    .cabecalho__menu__link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: var(--cor-fonte);
+        display: inherit;
+    }
+
+    .cabecalho__menu__contato {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .apresentacao,
+    .skills {
+        padding-top: 3.2rem;
+
+    }
+
+    .apresentacao__titulo {
+        font-size: 5.2rem;
+        line-height: 6.1rem;
+    }
+
+    .apresentacao__texto {
+        width: 60%;
+    }
+
+    .apresentacao__imagem {
+        width: 36.8rem;
+        height: 36.8rem;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        margin-block: 2.4rem;
+    }
+
+    .apresentacao_links {
+        gap: 3.2rem;
+    }
+
+    .apresentacao__link a {
+        font-size: 1.6rem;
+    }
+
+    .sobre_mim {
+        padding-block: 6.4rem;
+
+    }
+
+    .sobre_mim__titulo,
+    .skills__titulo,
+    .hobbies__titulo,
+    .cursos__titulo,
+    .experiencia__titulo,
+    .contato__titulo {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+
+    .sobre_mim__paragrafo {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .curso__front {
+        width: 30%;
+
+    }
+
+
+    .curso__front__logo-alura {
+        width: 100%;
+    }
+
+    .experiencia_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.2rem;
+        gap: 2rem;
+       
+    }
+
+    .experiencia_container img {
+        width: 55%;
+    }
+
+    .forca {
+        flex-direction: row-reverse;
+       
+    }
+
+    .contato_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        
+
+    }
+
+    .contato__imagem {
+       width: 464px;
+       height: 663px;
+       background-image: url(../img/telefone.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+    }
+
+    .contato_container__formulario {
+        width: 50%;
+       
+       
+       
+    }
+
+   
+
+  
+
+
+
+
+
+
+
+
 
 }
