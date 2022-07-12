@@ -1,6 +1,6 @@
 # Challenge Alura | Portfólio
 
-> Este desafio Alura propôs a criação de um portfólio, com a ideia de que pudéssemos documentar um pouco do que aprendemos ao longo do curso e também contar um pouco sobre nós.<br> Esta versão está disponível apenas em formato desktop. 
+> Este desafio Alura propôs a criação de um portfólio, com a ideia de que pudéssemos documentar um pouco do que aprendemos ao longo do curso e também contar um pouco sobre nós.<br>
 <br>
 
 
