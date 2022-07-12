@@ -96,7 +96,7 @@
 
     }
 
-    .apresentacao__link a {
+    .apresentacao__link__item{
         display: flex;
         text-decoration: none;
         font-weight: 400;
@@ -469,7 +469,17 @@
         line-height: 1.9rem;
         color: var(--cor-fonte);
         display: inherit;
+       
     }
+
+    .cabecalho__menu__link:hover, 
+    .cabecalho__menu__contato:hover {
+       opacity: .8;
+       transition: .2s;
+        
+    }
+
+
 
     .cabecalho__menu__contato {
         font-size: 1.6rem;
@@ -506,7 +516,7 @@
         gap: 3.2rem;
     }
 
-    .apresentacao__link a {
+    .apresentacao__link__item {
         font-size: 1.6rem;
     }
 
@@ -580,9 +590,10 @@
     .contato_container__formulario {
         width: 50%;
        
-       
-       
     }
+       
+}
+       
 
    
 
@@ -595,5 +606,3 @@
 
 
 
-
-}
