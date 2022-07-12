@@ -486,14 +486,14 @@
     }
 
     .cabecalho__menu__link:hover, 
-    .cabecalho__menu__contato:hover {
+    .cabecalho__menu__contato:hover
+     {
        opacity: .8;
        transition: .2s;
         
     }
 
-
-
+    
     .cabecalho__menu__contato {
         font-size: 1.6rem;
         line-height: 1.9rem;
