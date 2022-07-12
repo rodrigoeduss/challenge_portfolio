@@ -399,6 +399,19 @@
         text-align: center;
     }
 
+    button:disabled {
+        cursor:default;
+        opacity: .7;
+    }
+    
+    
+       
+    .ativo {
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+
 }
 
 /* RESPONSIVIDADE TABLET */
